@@ -1,0 +1,5 @@
+docker run -d -p 8888:80 -v /Users/ujin/dev/git/ssm-newapiserver:/services/apps/www --name php php1 ;
+rm /Users/ujin/dev/git/ssm-newapiserver/config/database.php ;
+rm /Users/ujin/dev/git/ssm-newapiserver/config/cache.php ;
+cp /Users/ujin/dev/git/ssm-newapiserver/config/database.dev.php /Users/ujin/dev/git/ssm-newapiserver/config/database.php ;
+cp /Users/ujin/dev/git/ssm-newapiserver/config/cache.dev.php /Users/ujin/dev/git/ssm-newapiserver/config/cache.php ;
