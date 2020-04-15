@@ -2,7 +2,7 @@
 main:
   - title: "Posts"
     url: /
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+   - title: "Sample Collections"
+     url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
